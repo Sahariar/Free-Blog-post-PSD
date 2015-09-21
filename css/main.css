@@ -1,0 +1,139 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+            margin:4rem 4rem;
+            font-family: 'Source Serif Pro', serif;
+            font-size: 15px;
+            line-height: 26px; 
+    color: #6d6d6d;
+}
+figcaption {
+    padding: 4rem 0 7rem 0;
+}
+p::first-letter {
+   font-family: 'Old Standard TT', serif;
+    font-size:3.3em;
+    font-weight: 700;
+    
+}
+.container {
+    width: 750px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.title {
+    font-family: 'Old Standard TT', serif;
+    font-size: 2em;
+    line-height: 36px;
+    padding: 0 3em;
+    color: #000;
+}
+.padall {
+    padding: 3.2rem;
+}
+.m-top{
+margin-top: 10px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0.95);
+    border-radius: 0px;
+}
+.btnpad{
+padding: 1.2rem;
+color: #000;
+}
+
+
+.link{
+color: #212121;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+}
+
+
+
+/*------divider------*/
+
+.divider {
+    padding: 4em 4em 4em 8em;
+}
+.border-top {
+    padding: 0 6.5em;
+}
+
+.border-top:before {
+    content: "";
+    border-top: 1px solid #999999;
+    padding: 0 60px;
+}
+
+.border-top:after {
+    content: "";
+    border-top: 1px solid #999999;
+    padding: 0px 60px;
+}
+
+/*social*/
+
+.social li{
+list-style: none;
+    display: inline-block;
+}
+.social li a i:hover{
+color: #000;
+}
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 10px solid #E2C66F;
+    position: absolute;
+    left: 57px;
+    top: 0px;
+}
+.social {
+    background-color: #E2C66F;
+    margin: 0;
+    padding: 2px 0;
+    
+}
+/*icon*/
+.icon-x {
+    font-size: 1.1em;
+    padding: 10px;
+    color: #fff;
+}
+.icon-1x {
+    font-size: 1.1em;
+    color: #e2c66f;
+    padding: 10px;
+}
+.icon-4x {
+    font-size: 2em;
+    color: #e2c66f;
+}
+.icon-3x{
+  font-size: 3.1em;
+    color: #000;
+}
